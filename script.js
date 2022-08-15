@@ -24,6 +24,8 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const discord_js_1 = __importStar(require("discord.js"));
+const dotenv_1 = require("dotenv");
+(0, dotenv_1.config)();
 const client = new discord_js_1.default.Client({
     intents: [
         discord_js_1.GatewayIntentBits.GuildMessages,

@@ -1,5 +1,6 @@
 import DiscordJS, {GatewayIntentBits} from 'discord.js';
-
+import { config } from "dotenv";
+config()
 const client: DiscordJS.Client = new DiscordJS.Client({
     intents: [
         GatewayIntentBits.GuildMessages,
