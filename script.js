@@ -35,5 +35,5 @@ const client = new discord_js_1.default.Client({
 client.on('ready', () => {
     console.log("Bot logged in.");
 });
-;
+
 client.login(process.env.DISCORD_TOKEN);
