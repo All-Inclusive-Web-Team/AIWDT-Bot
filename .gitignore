@@ -167,3 +167,7 @@ dist
 *.code-workspace
 
 # End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode
+
+# this is where the custom shit starts
+
+target/*
